@@ -1,0 +1,15 @@
+user"test"#性名
+gender"M"#性別M,F
+phone""#手機
+time"xx:xx:xx"#開始時間,立刻啟動xx:xx:xx,監控oo:oo:oo(暫時沒寫)
+bookdate"2020-10-31"#訂位日期
+booktime"18:00"#訂位時間
+num"1"#人數
+cardNO"1234123412341234"#卡號
+cardSecurityNO"987"#後面驗證碼
+cardExpireDate"202005"#卡片期限格式為202005
+cardUser"test"#持卡人
+email"123@gmail.com"#電子信箱
+purposes"家庭用餐"#用餐目的,家庭用餐,慶生...
+note"無"#備註
+bookMode"go"#訂位模式,暫時只有搶購模式go
