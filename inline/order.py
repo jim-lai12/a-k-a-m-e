@@ -147,8 +147,11 @@ class Order:
             full = u"訂位已滿，請修改人數、日期或時間"
             if end == full:
                 print "error"
+            while end == u"Service busy, please try again later: Service busy, please try again later":
+                r = self.session.post("https://inline.app/api/reservations", headers=self.header1, json=self.orderData)
+                end = r.text
             if self.message:
-                self.needprepay(r.text)
+                self.needotp(r.text)
 
 
 
